@@ -1,0 +1,134 @@
+header {
+    padding: 10px;
+    background-color: rgba(256, 256, 256, .03);
+    background-image: -webkit-linear-gradient(top, #111, #0c0c0c);
+    background-image: -moz-linear-gradient(top, #111, #0c0c0c);
+    background-image: -ms-linear-gradient(top, #111, #0c0c0c);
+    background-image: -o-linear-gradient(top, #111, #0c0c0c);
+    font-size: 2em;
+    font-family: 'Amethysta', serif;
+    text-align: center;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    white-space: nowrap;
+}
+
+/****ÜBERSCHRIFT****/
+.feuer {
+    padding: 2% 0%;
+    color: #0c0c0c;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px white,
+        5px -5px 10px #F8FF9D,
+        -10px -10px 20px #F5FE5C,
+        10px -15px 20px #FDDB33,
+        -10px -20px 20px #FFC126,
+        10px -25px 20px #FF7808,
+        -10px -30px 20px #F95801,
+        15px -35px 20px #FE7606,
+        -15px -40px 20px #FD5C01,
+        15px -45px 15px #E54600,
+        -20px -50px 15px #D23700,
+        20px -55px 15px #B82B00,
+        -20px -60px 15px #A11301,
+        20px -65px 15px #981D01,
+        -25px -70px 10px #851200,
+        25px -75px 10px #690D00,
+        -25px -80px 10px #3E0600;
+}
+
+body {
+    background-color: #111;
+    color: #FFF;
+}
+
+header img {
+    width: 64px;
+    animation: myAnim 10s linear 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+    margin-top: -50px;
+}
+
+header ul a {
+    color: rgb(33, 103, 121);
+    text-shadow: 1px 0px 1px black;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+header ul a:hover {
+    color: rgb(213, 235, 255);
+    text-shadow: 2px 2px 2px black;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5% 5%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+footer ul a {
+    color: rgb(33, 103, 121);
+    text-shadow: 1px 0px 1px black;
+    font-size: 20px;
+    text-decoration-line: none;
+
+}
+
+footer ul a:hover {
+    color: rgb(213, 235, 255);
+    text-shadow: 2px 2px 2px black;
+}
+
+footer img {
+    width: 32px;
+    margin: 3px;
+
+    &:hover {
+        scale: 1.1;
+    }
+}
+
+footer .copy {
+    width: 100%;
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
+
+/* ADMIN STYLE*/
+.adminMenu {
+    letter-spacing: .1em;
+}

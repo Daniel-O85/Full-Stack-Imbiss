@@ -1,0 +1,16 @@
+.State-Sichtbar {
+    display: block;
+}
+
+.State-Unsichtbar {
+    display: none;
+}
+
+.BestellDetails {
+    background-color: black;
+    position: absolute;
+    margin: -2% 5%;
+    padding: 5%;
+    border: solid white 1px;
+    z-index: 9000;
+}

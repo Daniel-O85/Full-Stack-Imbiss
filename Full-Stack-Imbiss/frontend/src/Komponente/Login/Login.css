@@ -1,0 +1,13 @@
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.login button {
+    &:hover {
+        scale: 1.1;
+        cursor: pointer;
+    }
+}

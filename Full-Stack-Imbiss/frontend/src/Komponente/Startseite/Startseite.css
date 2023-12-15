@@ -1,0 +1,47 @@
+.startseite {
+    margin: 5% 5%;
+}
+
+.startseite table {
+    border: inset silver 3px;
+    color: black;
+    text-align: center;
+    box-shadow:
+        inset 2vmin 2vmin 2vmin -1.5vmin #f808,
+        inset -1vmin -1vmin 5vmin -3vmin #00f7,
+        inset 0vmin -1vmin 5vmin -3vmin #00f8,
+        inset -1vmin -1vmin 2vmin -2vmin #251c27,
+        inset -1vmin -1vmin 3vmin -1vmin #251c27,
+        inset -1vmin -1vmin 2vmin #fc08,
+        -0.5vmin -0.5vmin 1vmin #ff08,
+        -1vmin -1vmin 2vmin #ce8c47,
+        -2vmin -2vmin 10vmin 1vmin #251c27,
+        -6vmin -6vmin 35vmin 3vmin #fa06;
+    border-spacing: 5px 5px;
+}
+
+.startseite table th {
+    border-bottom: solid gray 2px;
+    color: white;
+}
+
+
+.menge-zero:nth-child(even) {
+    background-color: white;
+}
+
+.menge-zero:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.menge-plus-zero:nth-child(even) {
+    background-color: aliceblue;
+}
+
+.menge-plus-zero:nth-child(odd) {
+    background-color: skyblue;
+}
+
+.startseite .btn-start {
+    padding: 0px 15px
+}

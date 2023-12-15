@@ -1,0 +1,29 @@
+.Datenschutz p {
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.231);
+    line-height: 35px;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.Datenschutz {
+    text-align: center;
+
+}
+
+.adminDatenschutz {
+    text-align: center;
+}
+
+.adminDatenschutz textarea {
+    width: 70%;
+    height: 400px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0% 1%;
+}

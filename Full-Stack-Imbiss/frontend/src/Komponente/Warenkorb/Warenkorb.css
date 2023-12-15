@@ -1,0 +1,18 @@
+.warenkorb {
+    margin: 5%;
+
+    hr {
+        margin: 15px;
+        margin-left: -1%;
+        width: 25%;
+        text-align: start;
+    }
+}
+
+.warenkorb button {
+    margin-right: 10px;
+    background-color: rgb(88, 84, 84);
+    border-radius: 3px;
+    color: white;
+    border: inset 3px grey;
+}

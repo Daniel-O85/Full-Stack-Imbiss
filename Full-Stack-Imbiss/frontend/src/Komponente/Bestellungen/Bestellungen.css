@@ -1,0 +1,11 @@
+.bestellungen td {
+    text-align: center;
+}
+
+.keinZugriff {
+    text-align: center;
+}
+
+.keinZugriff a {
+    color: white;
+}

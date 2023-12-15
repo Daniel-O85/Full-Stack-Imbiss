@@ -1,0 +1,21 @@
+.Kontakt {
+    text-align: center;
+    margin-top: 10%;
+    scale: 1.5;
+}
+
+
+
+.Kontakt button {
+    margin-left: -100px;
+}
+
+.Kontakt h3 {
+    text-shadow: 1px 1px 1px black;
+    color: rgb(213, 212, 212);
+}
+
+.Kontakt p {
+    color: red;
+    text-shadow: 2px 2px 2px black;
+}

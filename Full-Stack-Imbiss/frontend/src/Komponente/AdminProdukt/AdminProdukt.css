@@ -1,0 +1,7 @@
+.anzeigen {
+    display: flexbox;
+}
+
+.verstecken {
+    display: none;
+}

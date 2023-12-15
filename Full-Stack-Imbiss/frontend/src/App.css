@@ -1,0 +1,44 @@
+.logout {
+  text-align: center;
+  padding: 2%;
+  position: fixed center;
+  box-shadow: 5px 5px 5px black;
+  border: solid black 1px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.404);
+  color: rgb(219, 219, 219);
+  font-size: 25px;
+}
+
+
+.main-div {
+  padding: 5px;
+  min-height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/high-angle-burger-with-fries-sauces-table_23-2148678804.jpg?w=1800&t=st=1702631109~exp=1702631709~hmac=cec99aeaee3960199b9633fc428c0c320c92076ed08c688d19e417185044db11");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+input,
+button,
+textarea {
+  margin: 5px;
+  background-color: rgb(88, 84, 84);
+  border-radius: 3px;
+  color: rgb(219, 219, 219);
+  border: inset 3px grey;
+
+  &::placeholder {
+    color: rgb(219, 219, 219);
+  }
+}
+
+button {
+  &:hover {
+    scale: 1.1;
+    cursor: pointer;
+  }
+}
